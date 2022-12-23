@@ -1,0 +1,22 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(236, 220, 220);
+}
+
+.left {
+    float: left 50%;
+    /* width: 38.5%; */
+    /* height: 500px; */
+    /* list-style: none; */
+}
+
+.right {
+    background-color: rgb(161, 195, 229);
+    float: right 50%;
+    width: 61.5%;
+    height: 800px;
+    list-style: none;
+    margin-left: 580px;
+    margin-top: -716px;
+}

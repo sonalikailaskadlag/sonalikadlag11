@@ -1,0 +1,113 @@
+.vv{
+    margin: 0;
+     padding: 0; 
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.header {
+    min-height: 20vh;
+    width: 100%;
+    margin-right: 100px;
+    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)); */
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+     padding: 2% 6%; 
+    justify-items: center;
+    justify-content: space-between;
+}
+
+
+.nav-links {
+     flex: 2; 
+    text-align: left;
+}
+
+.nav-links ul li {
+
+    list-style: none;
+    display: inline-block;
+     padding: 8px 12px; 
+    position: relative;
+    
+    
+}
+
+.nav-links ul li a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.butt{
+    background: black;
+    color: white;
+    padding: 13px;
+}
+.buut1{
+    background: black;
+    color: white;
+    padding: 13px;
+    text-align: last;
+
+}
+.img1{
+/* margin-left: 432px; */
+    /* margin-top: -234px; */
+    /* margin-left: 376px; */
+    /* margin-left: 376px; */
+    /* margin-top: -273px; */
+    margin-left: 298px;
+    margin-top: -526px;
+    /* margin-top: 13px; */
+    /* margin-left: 318px; */
+}
+.input{
+    background: black;
+    color: white;
+}
+.rem{
+
+    font-size: 12PX;
+    /* font-size: 12PX; */
+    margin-inline-start: 52px;
+    margin-top: -41px;
+}
+.uu{
+    font-size: 12PX;
+    /* font-size: 12PX; */
+    margin-inline-start: 28px;
+    margin-top: -147px;
+}
+.sym{
+    height: 30px;
+    margin-left: -33px;
+}
+.im123{
+    height: 50px;
+}
+.bb{
+
+    button: radius 50%;
+}
